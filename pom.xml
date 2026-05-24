@@ -33,6 +33,10 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.2</version>
 
+			<configuration>
+                <warName>myweb-8.6.9</warName>
+            </configuration>
+
         </plugin>
 
     </plugins>
