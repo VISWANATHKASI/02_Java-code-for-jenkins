@@ -33,17 +33,22 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://44.202.251.20:8081/repository/flm-releases/</url>
-		</repository>
-  	</distributionManagement>
+
+    <!-- Release Repository -->
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-release/</url>
+    </repository>
+
+    <!-- Snapshot Repository -->
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-snapshot/</url>
+    </snapshotRepository>
+
+</distributionManagement>
 	
 	<pluginRepositories>
 	    <pluginRepository>    
