@@ -39,13 +39,13 @@
     <!-- Release Repository -->
     <repository>
         <id>nexus-releases</id>
-        <url>http://100.54.204.97:8081/repository/java-maven-project/</url>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-release/</url>
     </repository>
 
     <!-- Snapshot Repository -->
     <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://100.54.204.97:8081/repository/java-maven-project/</url>
+        <url>http://100.54.204.97:8081/repository/java-maven-project-snapshot/</url>
     </snapshotRepository>
 
 </distributionManagement>
